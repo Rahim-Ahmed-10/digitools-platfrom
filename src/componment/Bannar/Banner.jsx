@@ -11,7 +11,7 @@ const Banner = () => {
       <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10 p-4">
         {/* Left Content */}
         <div className="space-y-4">
-          <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 text-red-400 text-sm font-medium px-5 py-2 rounded-full">
+          <div className="inline-flex items-center gap-2 bg-violet-500/10 border border-violet-500/30 text-violet-400 text-sm font-medium px-5 py-2 rounded-full">
           <IoMdRadioButtonOn />  New: AI-Powered Tools Available
           </div>
 

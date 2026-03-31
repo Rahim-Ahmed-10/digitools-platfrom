@@ -3,17 +3,17 @@ import React from 'react';
 const Pricing = () => {
     return (
         <div className='container mx-auto'>
-        <div className='space-y-3 pt-20'>
-            <h2 className='font-bold text-5xl text-center'>Simple, Transparent Pricing</h2>
-            <p className='text-gray-500 text-center'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+        <div className='space-y-3 pt-20 container mx-auto'>
+            <h2 className='text-4xl lg:text-5xl font-bold leading-tight tracking-tighter text-center'>Simple, Transparent Pricing</h2>
+            <p className='text-gray-500 text-xl text-center'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
 
-         <div className='grid grid-cols-1 p-10 space-y-3 py-20 md:grid-cols-2 lg:grid-cols-3'>
-             <div className="card w-96 bg-base-100 shadow-sm rounded-2xl">
+         <div className='container mx-auto grid grid-cols-1 space-y-3 py-20 gap-2 md:grid-cols-2 lg:grid-cols-3'>
+             <div className="card bg-base-100 shadow-sm rounded-2xl">
   <div className="card-body space-y-4">
-    <div className="">
+    <div className="space-y-2">
       <h2 className="text-3xl font-bold">Starter</h2>
-      <p></p>
+      <p>Perfect for getting started</p>
       <span className="text-xl"><span className='font-bold text-3xl'>$0</span>/Month</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -42,12 +42,12 @@ const Pricing = () => {
   </div>
             </div>
 
-             <div className="card w-96  shadow-2xl rounded-2xl bg-violet-600">
+             <div className="card  shadow-2xl rounded-2xl bg-violet-600">
   <div className="card-body text-white relative">
     <span className="badge badge-md badge-warning absolute top-0.5 right-35 ">Most Popular</span>
-    <div className="">
+    <div className="space-y-2">
       <h2 className="text-3xl font-bold">Pro</h2>
-      <p></p>
+      <p>Best for professionals</p>
       <span className="text-xl"><span className='font-bold text-3xl'>$29</span>/Month</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -82,11 +82,11 @@ const Pricing = () => {
   </div>
             </div>
 
-             <div className="card w-96 bg-base-100 shadow-sm rounded-2xl">
+             <div className="card  bg-base-100 shadow-sm rounded-2xl">
   <div className="card-body">
-    <div className="">
+    <div className="space-y-2">
       <h2 className="text-3xl font-bold">Enterprise</h2>
-      <p></p>
+      <p>For teams and businesses</p>
       <span className="text-xl"><span className='font-bold text-3xl'>$99</span>/Month</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">

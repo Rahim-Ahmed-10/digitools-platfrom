@@ -13,7 +13,7 @@
       "Export to PDF",
       "Custom sections"
     ],
-    "icon": "📄"
+    "icon": "https://i.ibb.co.com/7TfyHRv/social-media.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Easy customization",
       "Modern UI components"
     ],
-    "icon": "🌐"
+    "icon": "https://i.ibb.co.com/qLhm1njz/Portfolio.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Company notes",
       "Status updates"
     ],
-    "icon": "📊"
+    "icon": "https://i.ibb.co.com/hJQ2wdKq/operation.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Instant download",
       "Custom tone settings"
     ],
-    "icon": "✉️"
+    "icon": "https://i.ibb.co.com/BHSpJzyg/portfolio.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Expert tips",
       "Video lessons"
     ],
-    "icon": "🎤"
+    "icon": "https://i.ibb.co.com/yBbc6H8h/writing-2327400-1.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Headline suggestions",
       "Analytics insights"
     ],
-    "icon": "💼"
+    "icon": "https://i.ibb.co.com/sD7hMGQ/download-1.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Pricing guide",
       "Project checklist"
     ],
-    "icon": "🚀"
+    "icon": "https://i.ibb.co.com/bgM7mdS3/download.png"
   },
   {
     "id": 8,
@@ -125,6 +125,6 @@
       "Progress tracking",
       "Learning resources"
     ],
-    "icon": "📚"
+    "icon": "https://i.ibb.co.com/hJQ2wdKq/operation.png"
   }
 ]

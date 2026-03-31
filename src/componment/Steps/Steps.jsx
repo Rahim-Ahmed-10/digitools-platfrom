@@ -5,10 +5,10 @@ import rocketImg from '../../assets/rocket.png'
 
 const Steps = () => {
     return (
-        <div className='bg-amber-50 p-15 space-y-4'>
+        <div className='bg-amber-50 p-15 space-y-10'>
             <div className='text-center space-y-3'>
-            <h2 className='font-bold text-2xl md:text-4xl '>Get Started in 3 Steps</h2>
-            <p className='font-semibold text-gray-400'>Start using premium digital tools in minutes, not hours.</p>
+            <h2 className='text-4xl lg:text-5xl font-bold leading-tight tracking-tighter'>Get Started in 3 Steps</h2>
+            <p className='font-semibold text-gray-400 text-xl'>Start using premium digital tools in minutes, not hours.</p>
             </div>
 
             <div className='grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3'>
