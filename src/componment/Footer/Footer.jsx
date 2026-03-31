@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Product</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Company</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Company</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Resources</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Resources</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -112,7 +112,7 @@ const Footer = () => {
           </div>
 
           <div className="">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Social Links</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
             <div className='flex gap-3'>
                 <p className='text-white text-2xl'><FaFacebook /></p>
                 <p className='text-white text-2xl'><FaInstagram /></p>
@@ -123,7 +123,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
+        <div className=" border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500 p-10">
           <div>© {new Date().getFullYear()} Digitools. All rights reserved..</div>
 
           <div className="">

@@ -3,12 +3,12 @@ import React from 'react';
 const Navbar = () => {
     return (
 
-  <div className="bg-base-100 shadow-sm flex justify-around p-4 items-center">
+  <div className="bg-base-100 shadow-sm flex space-y-3 md: justify-baseline flex-2 lg:justify-around p-4 items-center">
   <div className="">
     <a className="font-bold text-4xl text-blue-600">DigiTools</a>
   </div>
 
-    <div className="">
+    <div className="hidden md:block">
         <ul className="menu menu-horizontal gap-10 px-1 text-lg font-semibold">
           <li>
             <a>Products</a>

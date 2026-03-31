@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS-friendly formats.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Custom sections"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build your personal portfolio website easily with ready-made components.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Responsive design",
+      "SEO optimized",
+      "Easy customization",
+      "Modern UI components"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track your job applications and manage interviews in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Company notes",
+      "Status updates"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters in seconds using AI.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI-generated content",
+      "Multiple templates",
+      "Instant download",
+      "Custom tone settings"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Course",
+    "description": "Prepare for interviews with expert tips and mock questions.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Mock interviews",
+      "Common questions",
+      "Expert tips",
+      "Video lessons"
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Optimizer",
+    "description": "Optimize your LinkedIn profile to attract recruiters.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Profile review",
+      "Keyword optimization",
+      "Headline suggestions",
+      "Analytics insights"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 7,
+    "name": "Freelance Starter Pack",
+    "description": "Everything you need to start freelancing successfully.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Proposal templates",
+      "Client scripts",
+      "Pricing guide",
+      "Project checklist"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 8,
+    "name": "Skill Development Plan",
+    "description": "Personalized roadmap to improve your professional skills.",
+    "price": 12.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Custom roadmap",
+      "Weekly goals",
+      "Progress tracking",
+      "Learning resources"
+    ],
+    "icon": "📚"
+  }
+]

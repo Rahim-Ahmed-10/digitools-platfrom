@@ -2,18 +2,18 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-      <div className='bg-red-50'>
-
+        <div className='container mx-auto'>
         <div className='space-y-3 pt-20'>
             <h2 className='font-bold text-5xl text-center'>Simple, Transparent Pricing</h2>
             <p className='text-gray-500 text-center'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
 
-         <div className='flex justify-center gap-5 py-20'>
+         <div className='grid grid-cols-1 p-10 space-y-3 py-20 md:grid-cols-2 lg:grid-cols-3'>
              <div className="card w-96 bg-base-100 shadow-sm rounded-2xl">
   <div className="card-body space-y-4">
     <div className="">
       <h2 className="text-3xl font-bold">Starter</h2>
+      <p></p>
       <span className="text-xl"><span className='font-bold text-3xl'>$0</span>/Month</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -43,10 +43,11 @@ const Pricing = () => {
             </div>
 
              <div className="card w-96  shadow-2xl rounded-2xl bg-violet-600">
-  <div className="card-body text-white">
-    <span className="badge badge-xs badge-warning">Most Popular</span>
+  <div className="card-body text-white relative">
+    <span className="badge badge-md badge-warning absolute top-0.5 right-35 ">Most Popular</span>
     <div className="">
       <h2 className="text-3xl font-bold">Pro</h2>
+      <p></p>
       <span className="text-xl"><span className='font-bold text-3xl'>$29</span>/Month</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -85,6 +86,7 @@ const Pricing = () => {
   <div className="card-body">
     <div className="">
       <h2 className="text-3xl font-bold">Enterprise</h2>
+      <p></p>
       <span className="text-xl"><span className='font-bold text-3xl'>$99</span>/Month</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -120,7 +122,8 @@ const Pricing = () => {
   </div>
             </div>
         </div>
-      </div>
+        </div>
+      
     );
 };
 

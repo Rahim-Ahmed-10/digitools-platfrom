@@ -1,13 +1,14 @@
 import React from 'react';
 import BannerImg from "../../assets/banner.png";
 import { IoMdRadioButtonOn } from "react-icons/io";
+import playImg from '../../assets/Play.png'
 
 
 const Banner = () => {
     return (
 
-    <div className="relative min-h-162.5 flex items-center overflow-hidden">
-      <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
+    <div className="relative min-h-162.5 flex items-center overflow-hidden pt-10">
+      <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10 p-4">
         {/* Left Content */}
         <div className="space-y-4">
           <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 text-red-400 text-sm font-medium px-5 py-2 rounded-full">
@@ -25,11 +26,12 @@ const Banner = () => {
             advanced AI models, unified under a single, powerful subscription.
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-4">
+          <div className="flex flex-wrap gap-2 pt-4">
             <button className="btn btn-primary rounded-3xl">
               Explore Products
             </button>
             <button className="btn btn-outline rounded-3xl">
+              <img src={playImg} alt="" />
              Watch Demo
             </button>
           </div>

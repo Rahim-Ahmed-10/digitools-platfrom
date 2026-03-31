@@ -4,7 +4,7 @@ const Transfrom = () => {
     return (
         <div className='bg-violet-600'>
             <div className='space-y-4 p-20'>
-                <h2 className='font-bold text-4xl text-white text-center'>Ready to Transform Your Workflow?</h2>
+                <h2 className='font-bold text-2xl md:text-4xl text-white text-center'>Ready to Transform Your Workflow?</h2>
                 <p className='text-center font-semibold text-gray-300'>Join thousands of professionals who are already using Digitools to work smarter. <br /><span className='text-center'>Start your free trial today.</span> </p>
 
                 <div className='flex justify-center gap-4'>
