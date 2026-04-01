@@ -32,7 +32,6 @@ function App() {
     <>
     <Navbar cardCount={cards.length} />
     <Banner />
-    <Rink />
 
            <div className="tabs tabs-box justify-center bg-transparent pt-20">
               <input onClick={() => setActiveTab("model")}  type="radio" name="my_tabs_1" className="tab rounded-full w-30 font-semibold checked:bg-violet-500 checked:text-white" aria-label="Products" defaultChecked/>
@@ -44,6 +43,7 @@ function App() {
     </Suspense>
 
     {activeTab === "card" && <AddedCard cards={cards} setCard={setCard} />}
+     <Rink />
     <Steps />
     <Pricing />
     <Transfrom />

@@ -9,7 +9,7 @@ const AddedCard = ({cards, setCard}) => {
     const handleProceed = () => {
         setCard([]);
         if(cards.length === 0){
-            toast.error("No Card");
+            toast.warn("No Card");
         }else{
             toast.success("Proceed to Checkout !")
     };
@@ -18,7 +18,7 @@ const AddedCard = ({cards, setCard}) => {
     const handleDelete = (item) => {
         const filteredArray = cards.filter(res => res.id !== item.id);
         setCard(filteredArray)
-        toast.warn("Card Delete")
+        toast.error("Card Delete")
     };
     
     return (
