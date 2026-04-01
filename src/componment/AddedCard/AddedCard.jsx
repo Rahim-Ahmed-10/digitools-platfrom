@@ -27,7 +27,7 @@ const AddedCard = ({cards, setCard}) => {
                 
                {
                 cards.length === 0 ? <div className='grid justify-center'>
-                    <img src={noImage} alt="Image" className='pl-12' />
+                    <img src={noImage} alt="alert-error.png" className='pl-12' />
                     <p className='text-2xl text-red-400'>Card Is Not Empty</p>
                 </div> : 
                 <>
