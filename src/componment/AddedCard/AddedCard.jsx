@@ -9,7 +9,7 @@ const AddedCard = ({cards, setCard}) => {
     const handleProceed = () => {
         setCard([]);
         if(cards.length === 0){
-            toast.warn("No Card");
+            toast.warn("Card Is Not Empty !");
         }else{
             toast.success("Proceed to Checkout !")
     };
@@ -28,7 +28,7 @@ const AddedCard = ({cards, setCard}) => {
                {
                 cards.length === 0 ? <div className='grid justify-center'>
                     <img src={noImage} alt="alert-error.png" className='pl-12' />
-                    <p className='text-2xl text-red-400'>Card Is Not Empty</p>
+                    <p className='text-2xl text-gray-400'>Card Is Not Empty!</p>
                 </div> : 
                 <>
                        {cards.map(item => <div key={item.id} className='flex justify-between items-center shadow p-5 bg-blue-50'>
